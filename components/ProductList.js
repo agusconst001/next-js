@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-
+//CATEGORIA TODO
 function ProductList({ productos }) {
 
     return (
@@ -19,7 +19,8 @@ function ProductList({ productos }) {
                                 <h2 className="font-bold text-xl max-w-[180px] truncate">{producto.title}</h2>
                                 <p>$ {producto.price}</p>
                             </div>
-                            <Link href={`/product/${producto.id}`}>ver mas</Link>
+                            <Link className="text-blue-500 hover:text-blue-700 font-semibold" href={`/product/${producto.id}`}>ver mas</Link>
+                            
                         </div>
                     </article>
                 )

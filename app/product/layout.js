@@ -7,10 +7,12 @@ export default function ProductLayout({ children }) {
             <aside className="min-w-[250px]">
                 <PageTitle>Filtros</PageTitle>
                 <div className="flex flex-col gap-4">
-                    <Link href="/product/cat/electro">electrodomesticos</Link>
-                    <Link href="/product/cat/home">hogar</Link>
-                    <Link href="/product/cat/fashion">moda</Link>
-                    <Link href="/product/cat/sports">deportes</Link>
+                    <Link href="/product/cat/smartphones">Smartphones</Link>
+                    <Link href="/product/cat/laptops">Laptops</Link>
+                    <Link href="/product/cat/fragrances">Perfumes</Link>
+                    <Link href="/product/cat/skincare">Cuidado de la piel</Link>
+                    <Link href="/product/cat/groceries">Comestibles</Link>
+                    <Link href="/product/cat/home-decoration">Decoración</Link>
                 </div>
             </aside>
             <div className="grow">

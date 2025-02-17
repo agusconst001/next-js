@@ -7,6 +7,7 @@ function Header() {
             <h1 className="font-extrabold text-2xl tracking-wide">NextJS Store</h1>
             <nav className="flex gap-6">
                 <Link href="/" className="hover:text-yellow-300 transition-colors duration-300">Home</Link>
+                <Link href="/login" className="hover:text-yellow-300 transition-colors duration-300">Login</Link>
                 <Link href="/product" className="hover:text-yellow-300 transition-colors duration-300">Productos</Link>
                 <Link href="/admin" className="hover:text-yellow-300 transition-colors duration-300">Admin</Link>
                 <Link href="/contacto" className="hover:text-yellow-300 transition-colors duration-300">Contacto</Link>
