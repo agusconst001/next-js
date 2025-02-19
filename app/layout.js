@@ -1,6 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import { CartProvider } from "@/providers/CartContext";  // Importamos el proveedor del carrito
+import { CartProvider } from "@/app/providers/CartContext";  // Importamos el proveedor del carrito
 import "./globals.css";
 
 export const metadata = {

@@ -1,6 +1,7 @@
 "use client";
 import { useContext } from "react";
-import { CartContext } from "@/providers/CartContext";
+import { CartContext } from "@/app/providers/CartContext";
+
 
 export default function CarritoPage() {
   const { cart, removeFromCart } = useContext(CartContext);

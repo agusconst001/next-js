@@ -1,5 +1,8 @@
+"use client";
+
 import { createContext, useContext, useState, useEffect } from "react";
-import { addToCart, getCart, removeFromCart } from "../firebase/cartService";
+import { addToCart, getCart, removeFromCart } from "@/firebase/cartService"; // Usa @ para rutas absolutas
+
 
 const CartContext = createContext();
 
@@ -29,4 +32,5 @@ export const CartProvider = ({ children, userId }) => {
   );
 };
 
-export const useCart = () => useContext(CartContext);
+export { CartContext };
+
